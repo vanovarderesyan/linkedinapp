@@ -1,0 +1,106 @@
+1598542620842	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.d39aVJ5RO3Rz"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598542625660	Marionette	INFO	Listening on port 36805
+1598542625679	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/a8qbwp95qwmm9qc9s66hsaya5, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/6wqqe9eoivbf520c8dusqryxk
+JavaScript error: https://static-exp1.licdn.com/sc/h/a8qbwp95qwmm9qc9s66hsaya5, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/7eupwwmg7zlacqehnekxqqnv
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 19232: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 19232: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1598542648456	Marionette	INFO	Stopped listening on port 36805
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1598542686507	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.chsA7lY4wi3q"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598542690555	Marionette	INFO	Listening on port 34893
+1598542690630	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/a8qbwp95qwmm9qc9s66hsaya5, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/6wqqe9eoivbf520c8dusqryxk
+JavaScript error: https://static-exp1.licdn.com/sc/h/a8qbwp95qwmm9qc9s66hsaya5, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/7eupwwmg7zlacqehnekxqqnv
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 19232: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 19232: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1598542709682	Marionette	INFO	Stopped listening on port 34893
+1598542717600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8RcnGMMa3P91"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598542721794	Marionette	INFO	Listening on port 33379
+1598542721824	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/a8qbwp95qwmm9qc9s66hsaya5, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/7eupwwmg7zlacqehnekxqqnv
+JavaScript error: https://static-exp1.licdn.com/sc/h/a8qbwp95qwmm9qc9s66hsaya5, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/6wqqe9eoivbf520c8dusqryxk
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1598542726792	Marionette	INFO	Stopped listening on port 33379
+1598542788534	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.exHleVlK9BW3"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598542792386	Marionette	INFO	Listening on port 39787
+1598542792453	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/a8qbwp95qwmm9qc9s66hsaya5, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/7eupwwmg7zlacqehnekxqqnv
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1598542797198	Marionette	INFO	Stopped listening on port 39787
+1598542809912	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pH4k35cvYdzi"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598542813832	Marionette	INFO	Listening on port 33003
+1598542813936	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/9mh2wuc2elz7c7xxb19hcr175, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 19232: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 19232: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/bziszbvnrfmk5uxh5xggtw8w7, line 23396: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1598542832831	Marionette	INFO	Stopped listening on port 33003
