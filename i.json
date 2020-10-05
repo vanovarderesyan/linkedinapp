@@ -1,0 +1,14 @@
+{
+    "user_params":{
+        "username" : "",
+        "password" : ""
+    },
+    "campaign_params" : {
+        "linkedin_id" : "",
+        "campaign_name" : "",
+        "linkedin_url" : "",
+        "message" : "",
+        "variable" : "",
+        "audience" : ""
+    }
+}

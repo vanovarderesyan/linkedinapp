@@ -10466,3 +10466,31 @@ JavaScript warning: https://static-exp1.licdn.com/sc/h/3zt9doiz8ihzixj72ghcft3ki
 JavaScript warning: https://static-exp1.licdn.com/sc/h/3zt9doiz8ihzixj72ghcft3ki, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 1600870152375	Marionette	INFO	Stopped listening on port 45539
+1601392037320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qckV8Dw80WET"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601392041438	Marionette	INFO	Listening on port 38963
+1601392041538	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601392041552	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33321","noProxy":[],"sslProxy":"127.0.0.1:33321"}
+1601392081588	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5iQUdzi5EGBs"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601392085961	Marionette	INFO	Listening on port 34071
+1601392086007	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601392086014	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45609","noProxy":[],"sslProxy":"127.0.0.1:45609"}
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9edkw4f8sflxvco0rl3u0rni4,defpi9yxh7ux3do8122faupt0,6u0izcrkis8ki9ngv3b1vhwlv,5jbs9ivck3mtu0bnzwxey4fwc, line 17885: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9edkw4f8sflxvco0rl3u0rni4,defpi9yxh7ux3do8122faupt0,6u0izcrkis8ki9ngv3b1vhwlv,5jbs9ivck3mtu0bnzwxey4fwc, line 17885: unreachable code after return statement
+1601392119676	Marionette	INFO	Stopped listening on port 34071
+1601392548513	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1601392643717	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gKiQRApWpmFU"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601392647580	Marionette	INFO	Listening on port 38305
+1601392647630	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601392647635	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41037","noProxy":[],"sslProxy":"127.0.0.1:41037"}
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9edkw4f8sflxvco0rl3u0rni4,defpi9yxh7ux3do8122faupt0,6u0izcrkis8ki9ngv3b1vhwlv,5jbs9ivck3mtu0bnzwxey4fwc, line 17885: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/9edkw4f8sflxvco0rl3u0rni4,defpi9yxh7ux3do8122faupt0,6u0izcrkis8ki9ngv3b1vhwlv,5jbs9ivck3mtu0bnzwxey4fwc, line 17885: unreachable code after return statement
+1601392667533	Marionette	INFO	Stopped listening on port 38305
+JavaScript error: https://static-exp1.licdn.com/sc/h/9edkw4f8sflxvco0rl3u0rni4,defpi9yxh7ux3do8122faupt0,6u0izcrkis8ki9ngv3b1vhwlv,5jbs9ivck3mtu0bnzwxey4fwc, line 1246: TypeError: Network request failed
