@@ -10494,3 +10494,115 @@ JavaScript warning: https://static-exp1.licdn.com/sc/h/9edkw4f8sflxvco0rl3u0rni4
 JavaScript warning: https://static-exp1.licdn.com/sc/h/9edkw4f8sflxvco0rl3u0rni4,defpi9yxh7ux3do8122faupt0,6u0izcrkis8ki9ngv3b1vhwlv,5jbs9ivck3mtu0bnzwxey4fwc, line 17885: unreachable code after return statement
 1601392667533	Marionette	INFO	Stopped listening on port 38305
 JavaScript error: https://static-exp1.licdn.com/sc/h/9edkw4f8sflxvco0rl3u0rni4,defpi9yxh7ux3do8122faupt0,6u0izcrkis8ki9ngv3b1vhwlv,5jbs9ivck3mtu0bnzwxey4fwc, line 1246: TypeError: Network request failed
+1601883207934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HYq9vMZSliT1"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601883210046	Marionette	INFO	Listening on port 33843
+1601883210141	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601883210144	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:43381","noProxy":[],"sslProxy":"127.0.0.1:43381"}
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+1601883214231	Marionette	INFO	Stopped listening on port 33843
+1601883222653	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XaTqeLYFWWPE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601883224814	Marionette	INFO	Listening on port 43361
+1601883224859	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601883224863	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:43935","noProxy":[],"sslProxy":"127.0.0.1:43935"}
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript warning: https://static-exp1.licdn.com/sc/h/31cwn119xlstoq20mhfxur9bz,mzl99na3feomxafpfvmqo54t,a87rwiktlcptddi788m71babw,e3gx3ru69g76fnjmcgc814yg7, line 17527: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/ew8miezemqm519vv9zgv8gzcl, line 2827: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/ew8miezemqm519vv9zgv8gzcl, line 2827: unreachable code after return statement
+[Child 89696, MediaDecoderStateMachine #1] WARNING: 7f30797467e0 OpenCubeb() failed to init cubeb: file /build/firefox-Ryrp1v/firefox-81.0+build2/dom/media/AudioStream.cpp, line 330
+[Child 89696, MediaDecoderStateMachine #1] WARNING: Decoder=7f304fa31800 [OnMediaSinkAudioError]: file /build/firefox-Ryrp1v/firefox-81.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1601883242064	Marionette	INFO	Stopped listening on port 43361
+JavaScript error: https://static-exp1.licdn.com/sc/h/31cwn119xlstoq20mhfxur9bz,mzl99na3feomxafpfvmqo54t,a87rwiktlcptddi788m71babw,e3gx3ru69g76fnjmcgc814yg7, line 1246: TypeError: Network request failed
+1602161026422	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DPkZ0q8Q1pCM"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602161028476	Marionette	INFO	Listening on port 35793
+1602161028530	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602161028533	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:42677","noProxy":[],"sslProxy":"127.0.0.1:42677"}
+1602161052891	Marionette	INFO	Stopped listening on port 35793
+1602161070925	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hUMnCwavKcdY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602161073021	Marionette	INFO	Listening on port 45277
+1602161073037	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602161073039	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:34721","noProxy":[],"sslProxy":"127.0.0.1:34721"}
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+1602161180054	Marionette	INFO	Stopped listening on port 45277
+1602161221097	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZFmEjfEFZy68"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602161223208	Marionette	INFO	Listening on port 44131
+1602161223304	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602161249779	Marionette	INFO	Stopped listening on port 44131
+1602161357359	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.25jCU5mFbrSZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602161359435	Marionette	INFO	Listening on port 37293
+1602161359466	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602161380283	Marionette	INFO	Stopped listening on port 37293
+1602161487858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZAgtRuIDQN7l"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602161489993	Marionette	INFO	Listening on port 41429
+1602161490065	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602161490067	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:40825","noProxy":[],"sslProxy":"127.0.0.1:40825"}
+1602161510573	Marionette	INFO	Stopped listening on port 41429
+1602161526713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RYQW8WL15Tw9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602161528870	Marionette	INFO	Listening on port 38265
+1602161528922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602161528924	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:34911","noProxy":[],"sslProxy":"127.0.0.1:34911"}
+JavaScript error: https://static-exp1.licdn.com/sc/h/4fg31ujidsdoayhjhihdyv7kc, line 1: TypeError: e.target.getBoundingClientRect is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1602162155283	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Avqh7hnHp19Z"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602162157290	Marionette	INFO	Listening on port 36511
+1602162157389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602162157392	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:43903","noProxy":[],"sslProxy":"127.0.0.1:43903"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/13f8i2bo4a5xrvni7s619bhhs,2tner1h9rb17vr0hy2ro3cj5c,9v6q4iivs9g0yqtbqj6qgu2xn,dv461znz5jry7eao4rgz4gs3, line 17528: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/13f8i2bo4a5xrvni7s619bhhs,2tner1h9rb17vr0hy2ro3cj5c,9v6q4iivs9g0yqtbqj6qgu2xn,dv461znz5jry7eao4rgz4gs3, line 17528: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/13f8i2bo4a5xrvni7s619bhhs,2tner1h9rb17vr0hy2ro3cj5c,9v6q4iivs9g0yqtbqj6qgu2xn,dv461znz5jry7eao4rgz4gs3, line 17528: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/13f8i2bo4a5xrvni7s619bhhs,2tner1h9rb17vr0hy2ro3cj5c,9v6q4iivs9g0yqtbqj6qgu2xn,dv461znz5jry7eao4rgz4gs3, line 17528: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+1602162251203	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1602162284107	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1602165455659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rxzfM3klsM1C"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602165457522	Marionette	INFO	Listening on port 36309
+1602165457567	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602165457569	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:44685","noProxy":[],"sslProxy":"127.0.0.1:44685"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/13f8i2bo4a5xrvni7s619bhhs,2tner1h9rb17vr0hy2ro3cj5c,9v6q4iivs9g0yqtbqj6qgu2xn,dv461znz5jry7eao4rgz4gs3, line 17528: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/13f8i2bo4a5xrvni7s619bhhs,2tner1h9rb17vr0hy2ro3cj5c,9v6q4iivs9g0yqtbqj6qgu2xn,dv461znz5jry7eao4rgz4gs3, line 17528: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/13f8i2bo4a5xrvni7s619bhhs,2tner1h9rb17vr0hy2ro3cj5c,9v6q4iivs9g0yqtbqj6qgu2xn,dv461znz5jry7eao4rgz4gs3, line 17528: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/dl8e82erkjgeovl465ehypy6a, line 2828: unreachable code after return statement

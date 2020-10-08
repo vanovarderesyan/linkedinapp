@@ -14,10 +14,16 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from .linkedin import check_user,send_message
+from django.urls import path,include
+from campaign.models import(Campaign,SendindUser)
+from .linkedin import check_user,send_message,rekursiv_serach
+admin.site.register(Campaign)
+admin.site.register(SendindUser)
+
 urlpatterns = [
+    path('admin/',admin.site.urls),
+
     path('check/user',check_user),
-    path('send-message/',send_message),
+    path('send-message/',rekursiv_serach)
 
 ]

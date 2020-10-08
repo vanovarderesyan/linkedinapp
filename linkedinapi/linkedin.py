@@ -14,7 +14,7 @@ from rest_framework.decorators import api_view
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common import action_chains, keys
-
+from campaign.models import (Campaign,SendindUser)
 
 
 HTML_PARSER = 'html.parser'
@@ -113,7 +113,16 @@ def send_message(request):
         if not campaign_params:
             return JsonResponse({'message':"campaign_params requared"},status=400)
 
-        driver = webdriver.Firefox()
+        option = {
+        'proxy': {
+        #        'http': 'http://erpufphi-dest:fvxk9prr04j1@209.127.191.180:80',
+        #       'https': 'https://erpufphi-dest:fvxk9prr04j1@209.127.191.180:80',
+                'http': 'http://149.129.100.105:16716',
+                'https': 'https://149.129.100.105:16716', 
+	        'no_proxy': ''
+            }
+        }
+        driver = webdriver.Firefox(seleniumwire_options=option,options=options)
   
         driver.get('https://www.linkedin.com/')
 
@@ -164,5 +173,142 @@ def send_message(request):
         except:
             return JsonResponse({'message':"let's do a quick security check"},status=201)
 
+    else:
+        return JsonResponse({'message':"Method Not Allowed"},status=405)
+
+@api_view(['POST'])
+def rekursiv_serach(request):
+    if request.method == 'POST':
+        page=1
+        all_page_user = []
+        #,'https://www.linkedin.com/in/svetlana-petrosyan-2abb24137/','https://www.linkedin.com/in/lusine-sargsyan-9b00b8172/','https://www.linkedin.com/in/anoushik-sahakyan-756ab8181/'
+        # all_page_user = ['https://www.linkedin.com/in/lilit-baghdasaryan-330034b3/','https://www.linkedin.com/in/tsovinar-martirosyan/','https://www.linkedin.com/in/svetlana-petrosyan-2abb24137/','https://www.linkedin.com/in/lusine-sargsyan-9b00b8172/','https://www.linkedin.com/in/anoushik-sahakyan-756ab8181/']
+
+
+        HTML_PARSER = 'html.parser'
+        user_params = request.data.get('user_params', {})
+        username = user_params['username']
+        password = user_params['password']
+        campaign_params = request.data.get('campaign_params', None)
+        if not username or not password:
+            return JsonResponse({'message':"username and password requared"},status=400)
+        
+        if not campaign_params:
+            return JsonResponse({'message':"campaign_params requared"},status=400)
+
+        driver = webdriver.Firefox()
+        driver.get('https://www.linkedin.com/')
+        
+        time.sleep(3)
+        driver.find_element_by_xpath('//a[text()="Sign in"]').click()
+        username_input = driver.find_element_by_name('session_key')
+        username_input.send_keys(username)
+        time.sleep(2)
+
+        password_input = driver.find_element_by_name('session_password')
+        password_input.send_keys(password)
+
+        driver.find_element_by_xpath('//button[text()="Sign in"]').click()
+        time.sleep(2)
+
+        driver.get(str('%s&page='+str(page)) % (campaign_params['linkedin_url']))
+        html = driver.page_source
+        soup = BeautifulSoup(html, HTML_PARSER)
+
+        
+        while len(all_page_user) < campaign_params["count"]:
+            time.sleep(5)
+            driver.execute_script("window.scrollTo(0, 550);")
+            time.sleep(5)
+            driver.execute_script("window.scrollTo(550, 1150);")
+            time.sleep(5)
+            driver.execute_script("window.scrollTo(1150, 2500);")
+            delay = 5  # seconds
+            try:
+                WebDriverWait(driver, delay).until(
+                    EC.presence_of_element_located((By.ID, 'IdOfMyElement')))
+            except TimeoutException:
+                pass
+            users = driver.find_elements_by_css_selector("div.search-result__wrapper")
+
+            for user in users:
+                # print(user)
+                all_page_user.append(user.find_element_by_css_selector("a.search-result__result-link").get_attribute('href'))
+                if len(all_page_user) == 18:
+                    break
+            page = page +1
+            driver.get(str('%s&page='+str(page)) % (campaign_params['linkedin_url']))
+
+
+            
+        JSESSIONID = ""
+        for cookie in driver.get_cookies():
+            if cookie['name'] == "JSESSIONID":
+                JSESSIONID = cookie['value']
+
+        cam = Campaign.objects.create( compaign_name =campaign_params['compaign_name'],linkedin_id = campaign_params['linkedin_id'],count =campaign_params["count"] ,linkedin_url =campaign_params['linkedin_url'] )
+        for user in all_page_user:
+            driver.get(user)
+            time.sleep(5)
+            try:
+                driver.find_elements_by_class_name('pv-s-profile-actions')[0].click()
+
+                time.sleep(15)
+                driver.find_elements_by_class_name('ml1')[0].click()
+
+                time.sleep(5)
+                driver.find_elements_by_class_name('message-anywhere-button')[0].click()
+
+                time.sleep(4)
+            except:
+                pass
+            try:
+
+                textbox = driver.find_element_by_xpath(".//div[@role='textbox']/p[1]")
+                conversation_id = ''
+                time.sleep(3)
+                try:
+                    a = driver.find_element_by_xpath(".//a[@class='message-anywhere-button pv-s-profile-actions pv-s-profile-actions--message ml2 artdeco-button artdeco-button--2 artdeco-button--primary']")
+                    conversation_id = a.get_attribute('href').split('Afs_miniProfile%3A')[1].split(')')[0]
+                except:
+                    a = driver.find_element_by_xpath(".//h4[@class='msg-overlay-bubble-header__title truncate t-14 t-bold t-white pr1']/a[1]")
+                    conversation_id = a.get_attribute('href').split('in/')[1].split('/')[0]
+
+                    
+        
+                time.sleep(2)
+                
+                script = """fetch("https://www.linkedin.com/voyager/api/messaging/conversations?action=create",{
+                    "headers": {
+                        "accept": "application/vnd.linkedin.normalized+json+2.1",
+                        "accept-language": "en-US,en;q=0.9,ru;q=0.8",
+                        "content-type": "application/json; charset=UTF-8",
+                        "csrf-token": %s,
+                        "sec-fetch-dest": "empty",
+                        "sec-fetch-mode": "cors",
+                        "sec-fetch-site": "same-origin",
+                        "x-li-lang": "ru_RU",
+                        "x-li-page-instance": "urn:li:page:d_flagship3_feed;ZsZEQVKQSRqOUb37qIo+Tw==",
+                        "x-li-track": JSON.stringify({"clientVersion":"1.7.3536","osName":"web","timezoneOffset":4,"deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}),
+                    },
+                    "referrer": "https://www.linkedin.com/feed/",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "body": JSON.stringify({'keyVersion': 'LEGACY_INBOX', 'conversationCreate': {'eventCreate': { 'value': {'com.linkedin.voyager.messaging.create.MessageCreate': {'attributedBody': {'%s': 'test bot', 'attributes': []}, 'attachments': []}}}, 'recipients': ['%s'], 'subtype': 'MEMBER_TO_MEMBER'}}),
+                    "method": "POST",
+                    "mode": "cors",
+                    "credentials": "include"
+                })"""  %(JSESSIONID ,campaign_params['message'],conversation_id)
+            
+
+                driver.execute_script(script)
+                time.sleep(3)
+                print('verj')
+                driver.find_element_by_xpath("//button[@class='msg-overlay-bubble-header__control artdeco-button artdeco-button--circle artdeco-button--inverse artdeco-button--1 artdeco-button--tertiary ember-view']").click()
+
+                time.sleep(2) 
+                    
+            except:
+                pass
+        driver.quit()
     else:
         return JsonResponse({'message':"Method Not Allowed"},status=405)
