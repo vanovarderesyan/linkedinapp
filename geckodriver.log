@@ -11224,3 +11224,15 @@ TimedPromise@chrome://marionette/content/sync.js:230:10
 interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
 webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 1602228313268	Marionette	INFO	Stopped listening on port 38273
+1602235667314	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gyrydLX8ilbV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602235669394	Marionette	INFO	Listening on port 44151
+1602235669423	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602235669425	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41147","noProxy":[],"sslProxy":"127.0.0.1:41147"}
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript warning: https://static-exp1.licdn.com/sc/h/f204vlzwkeu4xgepmf71nm39d,4wuayyvkmd5xsnbfnjple4dku,7zqyvt6nzywjy8230v16g0slb,6kvosbgu01e2o9aubwf8si29u, line 17544: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3lbutl32fggurliiawogi2ja9, line 2828: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3lbutl32fggurliiawogi2ja9, line 2828: unreachable code after return statement
+1602235683109	Marionette	INFO	Stopped listening on port 44151
+JavaScript error: https://static-exp1.licdn.com/sc/h/f204vlzwkeu4xgepmf71nm39d,4wuayyvkmd5xsnbfnjple4dku,7zqyvt6nzywjy8230v16g0slb,6kvosbgu01e2o9aubwf8si29u, line 1259: TypeError: Network request failed
