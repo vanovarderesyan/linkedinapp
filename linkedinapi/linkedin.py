@@ -246,10 +246,12 @@ def rekursiv_serach(request):
             if cookie['name'] == "JSESSIONID":
                 JSESSIONID = cookie['value']
 
-        cam = Campaign.objects.create( compaign_name =campaign_params['compaign_name'],linkedin_id = campaign_params['linkedin_id'],count =campaign_params["count"] ,linkedin_url =campaign_params['linkedin_url'] )
+        cam = Campaign.objects.create( message_text=campaign_params['message'],user_id = campaign_params['user_id'],campaign_name =campaign_params['campaign_name'],linkedin_id = campaign_params['linkedin_id'],count =campaign_params["count"] ,linkedin_url =campaign_params['linkedin_url'] )
         for user in all_page_user:
             driver.get(user)
             time.sleep(5)
+            linkedin_conect_cret = SendindUser.objects.create(linkedin_user_url=user,campaign=cam)
+            linkedin_conect = SendindUser.objects.get(pk=linkedin_conect_cret.pk)
             try:
                 driver.find_elements_by_class_name('pv-s-profile-actions')[0].click()
 
@@ -260,6 +262,7 @@ def rekursiv_serach(request):
                 driver.find_elements_by_class_name('message-anywhere-button')[0].click()
 
                 time.sleep(4)
+                linkedin_conect.connect = True
             except:
                 pass
             try:
@@ -290,25 +293,33 @@ def rekursiv_serach(request):
                         "x-li-lang": "ru_RU",
                         "x-li-page-instance": "urn:li:page:d_flagship3_feed;ZsZEQVKQSRqOUb37qIo+Tw==",
                         "x-li-track": JSON.stringify({"clientVersion":"1.7.3536","osName":"web","timezoneOffset":4,"deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1920,"displayHeight":1080}),
+                        "x-restli-protocol-version": "2.0.0"
                     },
                     "referrer": "https://www.linkedin.com/feed/",
                     "referrerPolicy": "strict-origin-when-cross-origin",
-                    "body": JSON.stringify({'keyVersion': 'LEGACY_INBOX', 'conversationCreate': {'eventCreate': { 'value': {'com.linkedin.voyager.messaging.create.MessageCreate': {'attributedBody': {'%s': 'test bot', 'attributes': []}, 'attachments': []}}}, 'recipients': ['%s'], 'subtype': 'MEMBER_TO_MEMBER'}}),
+                    "body": JSON.stringify({'keyVersion': 'LEGACY_INBOX', 'conversationCreate': {'eventCreate': { 'value': {'com.linkedin.voyager.messaging.create.MessageCreate': {'attributedBody': {'text': '%s', 'attributes': []}, 'attachments': []}}}, 'recipients': ['%s'], 'subtype': 'MEMBER_TO_MEMBER'}}),
                     "method": "POST",
                     "mode": "cors",
                     "credentials": "include"
                 })"""  %(JSESSIONID ,campaign_params['message'],conversation_id)
             
-
+            
+                print(script,'************')
                 driver.execute_script(script)
                 time.sleep(3)
                 print('verj')
+                linkedin_conect.message = True
+                linkedin_conect.mini_profile = conversation_id
+            
                 driver.find_element_by_xpath("//button[@class='msg-overlay-bubble-header__control artdeco-button artdeco-button--circle artdeco-button--inverse artdeco-button--1 artdeco-button--tertiary ember-view']").click()
 
                 time.sleep(2) 
-                    
+                        
             except:
                 pass
+            linkedin_conect.save()
         driver.quit()
+
+        return JsonResponse({'message':'ok'})
     else:
         return JsonResponse({'message':"Method Not Allowed"},status=405)

@@ -3,10 +3,12 @@ from django.db import models
 # Create your models here.
 
 class Campaign(models.Model):
-    compaign_name = models.CharField(null=True,blank=True, max_length=250)
+    user_id = models.CharField(null=True,blank=True, max_length=250)
+    campaign_name = models.CharField(null=True,blank=True, max_length=250)
     linkedin_id = models.CharField(null=True,blank=True, max_length=250)
     count = models.CharField(null=True,blank=True, max_length=250)
     linkedin_url = models.TextField(null=True,blank=True)
+    message_text = models.TextField(null=True,blank=True)
 
     
 
@@ -15,7 +17,7 @@ class Campaign(models.Model):
         verbose_name_plural = "Campaign"
 
     def __str__(self):
-        return self.name
+        return self.campaign_name
 
     def get_absolute_url(self):
         return reverse("Campaign_detail", kwargs={"pk": self.pk})
@@ -23,6 +25,7 @@ class Campaign(models.Model):
 
 class SendindUser(models.Model):
     mini_profile = models.CharField(null=True,blank=True, max_length=250)
+    linkedin_user_url = models.CharField(null=True,blank=True, max_length=50)
     seen = models.BooleanField(default=False)
     campaign = models.ForeignKey(Campaign,null=True,blank=True, on_delete=models.CASCADE)
     connect = models.BooleanField(default=False)
@@ -33,7 +36,7 @@ class SendindUser(models.Model):
         verbose_name_plural = "SendindUsers"
 
     def __str__(self):
-        return self.name
+        return self.linkedin_user_url
 
     def get_absolute_url(self):
         return reverse("SendindUser_detail", kwargs={"pk": self.pk})

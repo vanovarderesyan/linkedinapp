@@ -4,6 +4,7 @@
         "password" : ""
     },
     "campaign_params" : {
+        "user_id":"",
         "linkedin_id" : "",
         "campaign_name" : "",
         "linkedin_url" : "",
