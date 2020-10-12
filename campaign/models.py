@@ -10,8 +10,6 @@ class Campaign(models.Model):
     linkedin_url = models.TextField(null=True,blank=True)
     message_text = models.TextField(null=True,blank=True)
 
-    
-
     class Meta:
         verbose_name = "Campaign"
         verbose_name_plural = "Campaign"

@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from campaign.models import(Campaign,SendindUser)
-from .linkedin import check_user,send_message,rekursiv_serach
+from .linkedin import check_user,send_message,rekursiv_serach,get_statistic
 admin.site.register(Campaign)
 admin.site.register(SendindUser)
 
@@ -24,6 +24,8 @@ urlpatterns = [
     path('admin/',admin.site.urls),
 
     path('check/user',check_user),
-    path('send-message/',rekursiv_serach)
+    path('send-message/',rekursiv_serach),
+    path('get-statistic/<int:user_id>/',get_statistic)
+
 
 ]

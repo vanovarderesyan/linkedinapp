@@ -93,7 +93,7 @@ def check_user(request):
             else:
                return JsonResponse({'message':"user not found"},status=201)
         except:
-            return JsonResponse({'message':"let's do a quick security check"},status=201)
+            return JsonResponse({'message':"let's do a quick security check"},status=200)
 
     else:
         return JsonResponse({'message':"Method Not Allowed"},status=405)
@@ -176,6 +176,96 @@ def send_message(request):
     else:
         return JsonResponse({'message':"Method Not Allowed"},status=405)
 
+
+@api_view(['POST'])
+def get_statistic(request,user_id):
+    """
+    docstring
+    """
+
+    HTML_PARSER = 'html.parser'
+    username = request.data.get('username',None)
+    password = request.data.get('password',None)
+    if not username or not password:
+        return JsonResponse({'message':"username and password requared"},status=400)
+    
+
+
+    driver = webdriver.Firefox()
+    driver.get('https://www.linkedin.com/')
+    
+    time.sleep(3)
+    driver.find_element_by_xpath('//a[text()="Sign in"]').click()
+    username_input = driver.find_element_by_name('session_key')
+    username_input.send_keys(username)
+    time.sleep(2)
+
+    password_input = driver.find_element_by_name('session_password')
+    password_input.send_keys(password)
+
+    driver.find_element_by_xpath('//button[text()="Sign in"]').click()
+    time.sleep(2)
+
+    respons= []
+    campaigns = Campaign.objects.filter(user_id=user_id)
+    for target_list in campaigns:
+   
+        
+        count_seen= 0
+        count_reply= 0
+        count_connect = 0
+        connected_user =  SendindUser.objects.filter(campaign=target_list)
+        for target_l in connected_user:
+            driver.get(target_l.linkedin_user_url)
+            time.sleep(3)
+        
+            driver.find_elements_by_class_name('message-anywhere-button')[0].click()
+            time.sleep(5)
+            textbox = driver.find_element_by_xpath(".//div[@role='textbox']/p[1]")
+            conversation_id = ''
+            time.sleep(3)
+            messages = driver.find_elements_by_xpath('.//li[@class="msg-s-message-list__event clearfix"]')[-1]
+
+            try:
+                if len(driver.find_elements_by_class_name('pv-s-profile-actions')) == 0 and len(driver.find_elements_by_class_name('pv-s-profile-actions pv-s-profile-actions--connect ml2  artdeco-button artdeco-button--2 artdeco-button--primary artdeco-button--disabled ember-view')) == 0:
+                    count_connect = count_connect +1 
+            except expression as identifier:
+                pass
+            if target_l.message:
+                try:
+                    #msg-s-event-listitem msg-s-event-listitem--last-in-group ember-view
+                    href = messages.find_element_by_xpath('.//div[@class="msg-s-message-group__meta"]/a[1]').get_attribute('href')
+                    print(href,'hre********************************************f',target_l.linkedin_user_url)
+                    if target_l.linkedin_user_url == href:
+                        count_reply = count_reply +1
+                    messages.find_element_by_xpath('.//div[@class="msg-s-event-listitem__seen-receipts t-12 t-black--light t-normal"]')
+                    count_seen = count_seen +1
+                except:
+                    pass   
+                #message ete lenkt exav kardacela ete che urem che
+                try:
+                    a = driver.find_element_by_xpath(".//a[@class='message-anywhere-button pv-s-profile-actions pv-s-profile-actions--message ml2 artdeco-button artdeco-button--2 artdeco-button--primary']")
+                    conversation_id = a.get_attribute('href').split('Afs_miniProfile%3A')[1].split(')')[0]
+                except:
+                    a = driver.find_element_by_xpath(".//h4[@class='msg-overlay-bubble-header__title truncate t-14 t-bold t-white pr1']/a[1]")
+                    conversation_id = a.get_attribute('href').split('in/')[1].split('/')[0]
+        time.sleep(3)
+
+        respons.append({
+            "campaign_id":target_list.pk,
+            "campaign_name" : target_list.campaign_name,
+            'count_sending_message_user':SendindUser.objects.filter(campaign=target_list,message=True).count(),
+            'count_sending_connect_user':SendindUser.objects.filter(campaign=target_list,connect=True).count(),
+            'count_sending_message_seen_user':count_seen,
+            'count_sending_message_reply_user':count_reply,
+            'count_sending_connect_accept_user':count_connect,
+        })
+        # print(target_list)
+
+    driver.quit()
+    print(respons)
+    return JsonResponse({'message':list(respons)})
+
 @api_view(['POST'])
 def rekursiv_serach(request):
     if request.method == 'POST':
@@ -187,6 +277,7 @@ def rekursiv_serach(request):
 
         HTML_PARSER = 'html.parser'
         user_params = request.data.get('user_params', {})
+        print(user_params,'*******************',request.data)
         username = user_params['username']
         password = user_params['password']
         campaign_params = request.data.get('campaign_params', None)
