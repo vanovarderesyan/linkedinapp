@@ -208,9 +208,8 @@ def get_statistic(request,user_id):
 
     respons= []
     campaigns = Campaign.objects.filter(user_id=user_id)
+    print(campaigns,'campaigns',user_id)
     for target_list in campaigns:
-   
-        
         count_seen= 0
         count_reply= 0
         count_connect = 0
@@ -337,7 +336,7 @@ def rekursiv_serach(request):
             if cookie['name'] == "JSESSIONID":
                 JSESSIONID = cookie['value']
 
-        cam = Campaign.objects.create( message_text=campaign_params['message'],user_id = campaign_params['user_id'],campaign_name =campaign_params['campaign_name'],linkedin_id = campaign_params['linkedin_id'],count =campaign_params["count"] ,linkedin_url =campaign_params['linkedin_url'] )
+        cam = Campaign.objects.create( campaign_id = campaign_params['campaign_id'],message_text=campaign_params['message'],user_id = campaign_params['user_id'],campaign_name =campaign_params['campaign_name'],linkedin_id = campaign_params['linkedin_id'],count =campaign_params["count"] ,linkedin_url =campaign_params['linkedin_url'] )
         for user in all_page_user:
             driver.get(user)
             time.sleep(5)
@@ -367,9 +366,7 @@ def rekursiv_serach(request):
                 except:
                     a = driver.find_element_by_xpath(".//h4[@class='msg-overlay-bubble-header__title truncate t-14 t-bold t-white pr1']/a[1]")
                     conversation_id = a.get_attribute('href').split('in/')[1].split('/')[0]
-
-                    
-        
+                  
                 time.sleep(2)
                 
                 script = """fetch("https://www.linkedin.com/voyager/api/messaging/conversations?action=create",{

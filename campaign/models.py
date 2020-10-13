@@ -9,6 +9,7 @@ class Campaign(models.Model):
     count = models.CharField(null=True,blank=True, max_length=250)
     linkedin_url = models.TextField(null=True,blank=True)
     message_text = models.TextField(null=True,blank=True)
+    campaign_id = models.PositiveIntegerField(null=True,blank=True)
 
     class Meta:
         verbose_name = "Campaign"
