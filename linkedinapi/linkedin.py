@@ -20,8 +20,10 @@ from campaign.models import (Campaign,SendindUser)
 HTML_PARSER = 'html.parser'
 options = Options()
 options.headless = True
-PROXY = "51.75.147.33:3128"
+PROXY = "159.69.199.175:3128"
 port = "12345"
+chrome_options =webdriver.ChromeOptions()
+#chrome_options.add_argument('--proxy-server=%s' % PROXY)
 
 def local_search(driver,page,campaign_params):
     all_page_user = []
@@ -285,8 +287,7 @@ def check_user(request):
         
 
 
-        chrome_options =webdriver.ChromeOptions()
-        chrome_options.add_argument('--proxy-server=%s' % PROXY)
+
 
         driver= webdriver.Chrome(options=chrome_options)
   
@@ -305,13 +306,16 @@ def check_user(request):
         #driver.find_element_by_xpath('//button[text()="Sign in"]').click()
         log_in_button.click()
 
-        driver.implicitly_wait(60)
-
+      
         time.sleep(1)
-        user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
-        if user_code:
+        try:
+            user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
+            if user_code:
+                driver.implicitly_wait(60)
 
-            return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url},status=200)
+                return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url},status=303)
+        except:
+            pass
 
         try:
             WebDriverWait(driver, 1).until(
@@ -328,7 +332,7 @@ def check_user(request):
         # grab all linkedin profiles from first page at Google
 
         print(users)
-       # driver.quit()
+        driver.quit()
         err_password = soup.find_all(
                 'div', {'id': 'error-for-password'})
         print(len(err_password))
@@ -364,18 +368,22 @@ def send_message(request):
         if not campaign_params:
             return JsonResponse({'message':"campaign_params requared"},status=400)
 
-        option = {
-        'proxy': {
+        #option = {
+        #'proxy': {
         #        'http': 'http://erpufphi-dest:fvxk9prr04j1@209.127.191.180:80',
         #       'https': 'https://erpufphi-dest:fvxk9prr04j1@209.127.191.180:80',
-                'http': 'http://149.129.100.105:16716',
-                'https': 'https://149.129.100.105:16716', 
-	        'no_proxy': ''
-            }
-        }
-        driver = webdriver.Chrome(seleniumwire_options=option,options=options)
+        #       'http': 'http://149.129.100.105:16716',
+        #       'https': 'https://149.129.100.105:16716', 
+	    #   'no_proxy': ''
+        #   }
+        #}
+
+
+
+        driver= webdriver.Chrome(options=chrome_options)
   
         driver.get('https://www.linkedin.com/')
+
 
         driver.find_element_by_xpath('//a[text()="Sign in"]').click()
 
@@ -389,14 +397,16 @@ def send_message(request):
 
         #driver.find_element_by_xpath('//button[text()="Sign in"]').click()
         log_in_button.click()
-        driver.implicitly_wait(60)
 
         time.sleep(1)
-        user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
-        if user_code:
+        try:
+            user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
+            if user_code:
+                driver.implicitly_wait(60)
 
-            return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url},status=200)
-            
+                return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url},status=303)
+        except:
+            pass 
 
         try:
             WebDriverWait(driver, 1).until(
@@ -450,7 +460,9 @@ def get_statistic(request,user_id):
     
 
 
-    driver = webdriver.Chrome()
+
+    driver= webdriver.Chrome(options=chrome_options)
+
     driver.get('https://www.linkedin.com/')
     
     time.sleep(3)
@@ -464,10 +476,14 @@ def get_statistic(request,user_id):
 
     driver.find_element_by_xpath('//button[text()="Sign in"]').click()
     time.sleep(2)
-    user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
+    try:
+        user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
+        if user_code:
+            driver.implicitly_wait(60)
 
-    if user_code:
-        return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url,"type":1},status=200)
+            return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url},status=303)
+    except:
+        pass
     respons = local_statistic(driver,user_id)
     return JsonResponse({'message':list(respons)})
 
@@ -494,7 +510,9 @@ def rekursiv_serach(request):
         if not campaign_params:
             return JsonResponse({'message':"campaign_params requared"},status=400)
 
-        driver = webdriver.Chrome()
+
+        driver= webdriver.Chrome(options=chrome_options)
+  
         driver.get('https://www.linkedin.com/')
         
         time.sleep(3)
@@ -508,10 +526,14 @@ def rekursiv_serach(request):
 
         driver.find_element_by_xpath('//button[text()="Sign in"]').click()
         time.sleep(2)
-        user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
-       
-        if user_code:
-            return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url,"type":1},status=200)
+        try:
+            user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
+            if user_code:
+                driver.implicitly_wait(60)
+
+                return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url},status=303)
+        except:
+            pass
 
 
         req = local_search(driver,page,campaign_params)
