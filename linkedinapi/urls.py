@@ -22,12 +22,8 @@ admin.site.register(SendindUser)
 
 urlpatterns = [
     path('admin/',admin.site.urls),
-
     path('check/user',check_user),
     path('send-message/',rekursiv_serach),
     path('get-statistic/<int:user_id>/',get_statistic),
     path('secondProcess/',secondProcess)
-
-
-
 ]

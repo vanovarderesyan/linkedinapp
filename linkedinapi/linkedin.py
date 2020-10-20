@@ -134,7 +134,6 @@ def local_search(driver,page,campaign_params):
             pass
         linkedin_conect.save()
     driver.quit()
-
     return True
 
 def local_statistic(driver,user_id):
@@ -228,12 +227,19 @@ def secondProcess(request):
 
     # Replace the patched function with original function
     RemoteWebDriver.execute = org_command_execute
-    driver.get(url)
+    try:
+        driver.get(url) 
+    except:
+        return JsonResponse({'message':"verification url expired"},status=498)
+    
     time.sleep(2)
+    try:
+        username_input = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
 
-    username_input = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
+        username_input.send_keys(int(text)) 
+    except:
+        return JsonResponse({'message':"Something unexpected happened. Please try again."},status=498) 
 
-    username_input.send_keys(int(text))
 
     time.sleep(2)
     log_in_button = driver.find_element_by_xpath('.//button[@class="form__submit form__submit--stretch"]')
@@ -245,20 +251,20 @@ def secondProcess(request):
     err =  driver.find_elements_by_id('email-pin-error')
     if err:
         driver.quit()
-        return JsonResponse({'message':"cose is wrong"},status=400)
+        return JsonResponse({'message':"cose is wrong","status":400},status=400)
     else:
         if method == 1:
             req = local_search(driver,1,campaign_params)
             if req:
-                return JsonResponse({'message':'ok'})
+                return JsonResponse({'message':'ok',"status":200})
             else:
-                return JsonResponse({'message':'error'},status=400)
+                return JsonResponse({'message':'error',"status":400},status=400)
         if method == 2:
             respons = local_statistic(driver,user_id)
-            return JsonResponse({'message':list(respons)})
+            return JsonResponse({'message':list(respons),"status":200})
             
         
-        return JsonResponse({'message':"ok"},status=200)
+        return JsonResponse({'message':"ok","status":200},status=200)
 
 
 
@@ -266,10 +272,12 @@ def secondProcess(request):
 def check_user(request):
     if request.method == 'POST':
         print('check_user')
+        #return JsonResponse({'session_id':"test_id",'text':6565,"executor_url":"test_url",'url':"test","code":True,"status":303},status=303)
+
         username = request.data.get('username', None)
         password = request.data.get('password', None)
         if not username or not password:
-            return JsonResponse({'message':"username and password requared"},status=400)
+            return JsonResponse({'message':"username and password requared","status":400},status=400)
 
         writer = csv.writer(open('testing.csv', 'w')) # preparing csv file to store parsing result later
         writer.writerow(['name', 'job_title', 'schools', 'location', 'ln_url'])
@@ -311,11 +319,12 @@ def check_user(request):
         try:
             user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
             if user_code:
-                driver.implicitly_wait(60)
+                driver.implicitly_wait(280)
 
-                return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url},status=303)
+                return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url,"code":True,"status":303},status=303)
         except:
-            pass
+            return JsonResponse({'message':"Something unexpected happened. Please try again."},status=498) 
+
 
         try:
             WebDriverWait(driver, 1).until(
@@ -341,17 +350,17 @@ def check_user(request):
         err_code = soup.find_all('input',{'id':'input__email_verification_pin'})
         print(err_code,'code info')
         if err_code:
-            return JsonResponse({'message':'ok'})
+            return JsonResponse({'message':'ok',"status":200})
         try:
             if len(err_password[0].text) == 0 and len(err_username[0].text )== 0:
-               return JsonResponse({'message':'ok'})
+               return JsonResponse({'message':'ok',"status":200})
             else:
-               return JsonResponse({'message':"user not found"},status=201)
+               return JsonResponse({'message':"user not found","status":201},status=201)
         except:
-            return JsonResponse({'message':"let's do a quick security check"},status=200)
+            return JsonResponse({'message':"let's do a quick security check","status":200},status=200)
 
     else:
-        return JsonResponse({'message':"Method Not Allowed"},status=405)
+        return JsonResponse({'message':"Method Not Allowed","status":405},status=405)
 
 
 @api_view(['POST'])
@@ -363,10 +372,10 @@ def send_message(request):
         password = user_params['password']
         campaign_params = request.data.get('campaign_params', None)
         if not username or not password:
-            return JsonResponse({'message':"username and password requared"},status=400)
+            return JsonResponse({'message':"username and password requared","status":400},status=400)
         
         if not campaign_params:
-            return JsonResponse({'message':"campaign_params requared"},status=400)
+            return JsonResponse({'message':"campaign_params requared","status":400},status=400)
 
         #option = {
         #'proxy': {
@@ -402,9 +411,9 @@ def send_message(request):
         try:
             user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
             if user_code:
-                driver.implicitly_wait(60)
+                driver.implicitly_wait(280)
 
-                return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url},status=303)
+                return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url,"code":True,"status":303},status=303)
         except:
             pass 
 
@@ -432,17 +441,17 @@ def send_message(request):
         err_code = soup.find_all('input',{'id':'input__email_verification_pin'})
         print(err_code,'code info')
         if err_code:
-            return JsonResponse({'message':'ok'})
+            return JsonResponse({'message':'ok',"status":200})
         try:
             if len(err_password[0].text) == 0 and len(err_username[0].text )== 0:
-               return JsonResponse({'message':'ok'})
+               return JsonResponse({'message':'ok',"status":200})
             else:
-               return JsonResponse({'message':"user not found"},status=201)
+               return JsonResponse({'message':"user not found","status":201},status=201)
         except:
-            return JsonResponse({'message':"let's do a quick security check"},status=201)
+            return JsonResponse({'message':"let's do a quick security check","status":201},status=201)
 
     else:
-        return JsonResponse({'message':"Method Not Allowed"},status=405)
+        return JsonResponse({'message':"Method Not Allowed","status":405},status=405)
 
 
 @api_view(['POST'])
@@ -456,7 +465,7 @@ def get_statistic(request,user_id):
     username = request.data.get('username',None)
     password = request.data.get('password',None)
     if not username or not password:
-        return JsonResponse({'message':"username and password requared"},status=400)
+        return JsonResponse({'message':"username and password requared","status":400},status=400)
     
 
 
@@ -479,13 +488,13 @@ def get_statistic(request,user_id):
     try:
         user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
         if user_code:
-            driver.implicitly_wait(60)
+            driver.implicitly_wait(280)
 
-            return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url},status=303)
+            return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url,"code":True,"status":303},status=303)
     except:
         pass
     respons = local_statistic(driver,user_id)
-    return JsonResponse({'message':list(respons)})
+    return JsonResponse({'message':list(respons),"status":200})
 
 @api_view(['POST'])
 def rekursiv_serach(request):
@@ -505,10 +514,10 @@ def rekursiv_serach(request):
         password = user_params['password']
         campaign_params = request.data.get('campaign_params', None)
         if not username or not password:
-            return JsonResponse({'message':"username and password requared"},status=400)
+            return JsonResponse({'message':"username and password requared","status":400},status=400)
         
         if not campaign_params:
-            return JsonResponse({'message':"campaign_params requared"},status=400)
+            return JsonResponse({'message':"campaign_params requared","status":400},status=400)
 
 
         driver= webdriver.Chrome(options=chrome_options)
@@ -529,17 +538,17 @@ def rekursiv_serach(request):
         try:
             user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
             if user_code:
-                driver.implicitly_wait(60)
+                driver.implicitly_wait(280)
 
-                return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url},status=303)
+                return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url,"code":True,"status":303},status=303)
         except:
             pass
 
 
         req = local_search(driver,page,campaign_params)
         if req:
-            return JsonResponse({'message':'ok'})
+            return JsonResponse({'message':'ok',"status":200})
         else:
-            return JsonResponse({'message':'error'},status=400)
+            return JsonResponse({'message':'error',"status":400},status=400)
     else:
-        return JsonResponse({'message':"Method Not Allowed"},status=405)
+        return JsonResponse({'message':"Method Not Allowed","status":405},status=405)
