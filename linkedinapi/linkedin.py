@@ -267,7 +267,6 @@ def secondProcess(request):
         return JsonResponse({'message':"ok","status":200},status=200)
 
 
-
 @api_view(['POST'])
 def check_user(request):
     if request.method == 'POST':
@@ -292,11 +291,7 @@ def check_user(request):
         #     }
         # }
         # driver = webdriver.Chrome(seleniumwire_options=option,options=options)
-        
-
-
-
-
+    
         driver= webdriver.Chrome(options=chrome_options)
   
         driver.get('https://www.linkedin.com/')
@@ -324,7 +319,6 @@ def check_user(request):
                 return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url,"code":True,"status":303},status=303)
         except:
             return JsonResponse({'message':"Something unexpected happened. Please try again."},status=498) 
-
 
         try:
             WebDriverWait(driver, 1).until(
@@ -453,7 +447,6 @@ def send_message(request):
     else:
         return JsonResponse({'message':"Method Not Allowed","status":405},status=405)
 
-
 @api_view(['POST'])
 def get_statistic(request,user_id):
     """
@@ -467,14 +460,10 @@ def get_statistic(request,user_id):
     if not username or not password:
         return JsonResponse({'message':"username and password requared","status":400},status=400)
     
-
-
-
     driver= webdriver.Chrome(options=chrome_options)
-
     driver.get('https://www.linkedin.com/')
-    
     time.sleep(3)
+
     driver.find_element_by_xpath('//a[text()="Sign in"]').click()
     username_input = driver.find_element_by_name('session_key')
     username_input.send_keys(username)
@@ -482,9 +471,9 @@ def get_statistic(request,user_id):
 
     password_input = driver.find_element_by_name('session_password')
     password_input.send_keys(password)
-
     driver.find_element_by_xpath('//button[text()="Sign in"]').click()
     time.sleep(2)
+    
     try:
         user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
         if user_code:
