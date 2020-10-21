@@ -318,7 +318,9 @@ def check_user(request):
 
                 return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url,"code":True,"status":303},status=303)
         except:
-            return JsonResponse({'message':"Something unexpected happened. Please try again."},status=498) 
+
+            driver.quit()
+            return JsonResponse({'message':"Something unexpected happened. Please try again.","status":498},status=498) 
 
         try:
             WebDriverWait(driver, 1).until(
@@ -473,7 +475,7 @@ def get_statistic(request,user_id):
     password_input.send_keys(password)
     driver.find_element_by_xpath('//button[text()="Sign in"]').click()
     time.sleep(2)
-    
+
     try:
         user_code = driver.find_element_by_xpath('.//input[@class="form__input--text input_verification_pin"]')
         if user_code:
