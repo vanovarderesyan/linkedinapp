@@ -1,0 +1,7 @@
+1602760523565	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5EcHmYRq0IHi"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602760525750	Marionette	INFO	Listening on port 42427
+1602760525798	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://democaptcha.com/js/main.js, line 61: unreachable code after return statement
+JavaScript warning: http://democaptcha.com/js/main.js, line 84: unreachable code after return statement
+1602760556068	Marionette	INFO	Stopped listening on port 42427

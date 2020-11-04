@@ -11898,3 +11898,1252 @@ JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b
 JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
 1602597187989	Marionette	INFO	Stopped listening on port 45471
 JavaScript error: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 1259: TypeError: Network request failed
+1602656739328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qYpfUxV5xXOV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602656741976	Marionette	INFO	Listening on port 45151
+1602656742037	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602656742039	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45377","noProxy":[],"sslProxy":"127.0.0.1:45377"}
+1602656749828	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602656760571	Marionette	INFO	Stopped listening on port 45151
+1602658087560	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aEgRSZT4Quww"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602658089655	Marionette	INFO	Listening on port 45111
+1602658089670	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602658089672	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41641","noProxy":[],"sslProxy":"127.0.0.1:41641"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602658110865	Marionette	INFO	Stopped listening on port 45111
+JavaScript error: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 1259: TypeError: Network request failed
+1602658213965	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TlXyAbFYcFWx"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602658215860	Marionette	INFO	Listening on port 41363
+1602658215888	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602658215890	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33641","noProxy":[],"sslProxy":"127.0.0.1:33641"}
+1602658223423	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602658237412	Marionette	INFO	Stopped listening on port 41363
+JavaScript error: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 1259: TypeError: Network request failed
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1D0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1602658605426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JmkuKEVSXldi"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602658607277	Marionette	INFO	Listening on port 38823
+1602658607340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602658607343	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:36815","noProxy":[],"sslProxy":"127.0.0.1:36815"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602658692212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GvIwb2vDQRn5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602658694215	Marionette	INFO	Listening on port 34013
+1602658694221	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602658694224	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:42747","noProxy":[],"sslProxy":"127.0.0.1:42747"}
+1602658702791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GO14wOmD9W85"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602658704863	Marionette	INFO	Listening on port 34045
+1602658704898	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602658704902	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33307","noProxy":[],"sslProxy":"127.0.0.1:33307"}
+1602658712692	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602658954085	Marionette	INFO	Stopped listening on port 38823
+1602658955065	Marionette	INFO	Stopped listening on port 34013
+1602658956189	Marionette	INFO	Stopped listening on port 34045
+1602658962187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eA1QVbTxkRzE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602658964289	Marionette	INFO	Listening on port 36255
+1602658964300	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602658964302	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33741","noProxy":[],"sslProxy":"127.0.0.1:33741"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602659044747	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.B6ebVgykk7dF"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602659046724	Marionette	INFO	Listening on port 33635
+1602659046756	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602659046759	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:40315","noProxy":[],"sslProxy":"127.0.0.1:40315"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602659262556	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7ngVjsKBTxC9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602659264519	Marionette	INFO	Listening on port 38283
+1602659264562	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602659264565	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33303","noProxy":[],"sslProxy":"127.0.0.1:33303"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602659950912	Marionette	INFO	Stopped listening on port 36255
+1602659954631	Marionette	INFO	Stopped listening on port 33635
+1602659956488	Marionette	INFO	Stopped listening on port 38283
+1602660183916	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.P8u5OToW6Yjd"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602660186197	Marionette	INFO	Listening on port 38991
+1602660186288	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602660186290	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33239","noProxy":[],"sslProxy":"127.0.0.1:33239"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602660242060	Marionette	INFO	Stopped listening on port 38991
+1602660293568	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YzSdyuOr7GyF"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602660295718	Marionette	INFO	Listening on port 46387
+1602660295776	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602660295780	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:43927","noProxy":[],"sslProxy":"127.0.0.1:43927"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602660386413	Marionette	INFO	Stopped listening on port 46387
+1602660425530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.65EATGwmaqYr"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602660427643	Marionette	INFO	Listening on port 45869
+1602660427739	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602660427742	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:42421","noProxy":[],"sslProxy":"127.0.0.1:42421"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1602660506231	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SuTDnmKJw9qg"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602660508474	Marionette	INFO	Listening on port 41953
+1602660508544	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602660508546	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:38965","noProxy":[],"sslProxy":"127.0.0.1:38965"}
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cxf68z85de78ywk4ieilewyyr,5uoxiy924px0nv4ag9mwu6yt5,5zli2b6f8mt12jqw1n6j4a3p9,5hx8zydvxwmso0bbfwzeqavcu, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7yad6gqok2m37vtlb7fxixo9b, line 2870: unreachable code after return statement
+1602660572721	Marionette	INFO	Stopped listening on port 41953
+1602663152913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.85yZvfIjgKpS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602663155115	Marionette	INFO	Listening on port 35499
+1602663155120	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602663209438	Marionette	INFO	Stopped listening on port 35499
+1602672633517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Wn5kqz9uGkqa"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602672635879	Marionette	INFO	Listening on port 40391
+1602672635930	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602672643522	Marionette	INFO	Stopped listening on port 40391
+1602674142864	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kmqAS3vfvtab"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602674144798	Marionette	INFO	Listening on port 45155
+1602674144870	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602674158792	Marionette	INFO	Stopped listening on port 45155
+1602674244228	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LaY9RTk6XWmk"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602674246192	Marionette	INFO	Listening on port 38333
+1602674246239	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602674264585	Marionette	INFO	Stopped listening on port 38333
+1602680287566	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Z3Cl7fjYhdBZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602680289558	Marionette	INFO	Listening on port 34985
+1602680289584	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602680309015	Marionette	INFO	Stopped listening on port 34985
+1602680313146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bJtWMZ5uui4R"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602680315466	Marionette	INFO	Listening on port 34513
+1602680315558	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602680336778	Marionette	INFO	Stopped listening on port 34513
+1602680638248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fmhubS671wd2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602680640202	Marionette	INFO	Listening on port 41061
+1602680640254	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602680659783	Marionette	INFO	Stopped listening on port 41061
+1602683231590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9Q6BHPGJnwC8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602683233567	Marionette	INFO	Listening on port 37419
+1602683233601	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602683252305	Marionette	INFO	Stopped listening on port 37419
+1602683539959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ShEUseFkbqAA"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602683542117	Marionette	INFO	Listening on port 37347
+1602683542170	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602683564139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Lsu5to523BFo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602683566203	Marionette	INFO	Listening on port 40477
+1602683566265	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602683567826	Marionette	INFO	Stopped listening on port 37347
+1602683608772	Marionette	INFO	Stopped listening on port 40477
+1602748590814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0X0PFRWGZv6R"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602748592820	Marionette	INFO	Listening on port 41557
+1602748592824	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602748732994	Marionette	INFO	Stopped listening on port 41557
+1602748816864	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0Y6PwuoWcAcA"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602748818709	Marionette	INFO	Listening on port 43753
+1602748818949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602748873569	Marionette	INFO	Stopped listening on port 43753
+1602748883103	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yXklZm4aGZ6b"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602748885339	Marionette	INFO	Listening on port 45533
+1602748885411	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602748905983	Marionette	INFO	Stopped listening on port 45533
+1602748937935	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9G5j8gyyt4Y9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602748939929	Marionette	INFO	Listening on port 43301
+1602748939951	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602749170507	Marionette	INFO	Stopped listening on port 43301
+1602749174268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eLIa78BDiEHD"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602749176286	Marionette	INFO	Listening on port 46013
+1602749176384	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1602749674638	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nxTowZ9LqkyP"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602749676946	Marionette	INFO	Listening on port 40957
+1602749677044	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602749896732	Marionette	INFO	Stopped listening on port 40957
+1602754191397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QKTrcccX3azf"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602754194561	Marionette	INFO	Listening on port 39679
+1602754194624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602754247181	Marionette	INFO	Stopped listening on port 39679
+1602754251792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Bg25Bfrgh42d"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602754254011	Marionette	INFO	Listening on port 38383
+1602754254104	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602754255497	Marionette	INFO	Stopped listening on port 38383
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile.Bg25Bfrgh42d/protections.sqlite
+1602754256445	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GeZYPyA8YkvM"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602754258525	Marionette	INFO	Listening on port 45453
+1602754287870	Marionette	INFO	Stopped listening on port 45453
+1602754289825	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KwKqNsp80X88"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602754291906	Marionette	INFO	Listening on port 36517
+1602754291932	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602754484449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.47Ew8u5wFVxS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602754487435	Marionette	INFO	Listening on port 42709
+1602754487462	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602754487528	Marionette	INFO	Stopped listening on port 36517
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602754518175	Marionette	INFO	Stopped listening on port 42709
+1602755419624	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UMsyKIOfSKpk"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602755421550	Marionette	INFO	Listening on port 45795
+1602755421630	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602755422758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nrGqM5keO50r"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602755424821	Marionette	INFO	Listening on port 44275
+1602755424863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602755427213	Marionette	INFO	Stopped listening on port 44275
+1602755429606	Marionette	INFO	Stopped listening on port 45795
+1602755453655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.m5hWKRf7PJUl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602755455875	Marionette	INFO	Listening on port 34017
+1602755455961	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602755467486	Marionette	INFO	Stopped listening on port 34017
+1602755467898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jAhEEWSAgpZk"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602755469865	Marionette	INFO	Listening on port 40133
+1602755469904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602755475798	Marionette	INFO	Stopped listening on port 40133
+1602755862783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xkbji2Wh2JlQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602755864766	Marionette	INFO	Listening on port 34055
+1602755864791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602755928631	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xHiUh8RPoxfi"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602755930728	Marionette	INFO	Listening on port 39011
+1602755930742	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+1602755934083	Marionette	INFO	Stopped listening on port 34055
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602756070991	Marionette	INFO	Stopped listening on port 39011
+1602756077090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MVEXVnBWALpr"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602756079196	Marionette	INFO	Listening on port 39363
+1602756079298	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602756121187	Marionette	INFO	Stopped listening on port 39363
+1602756304257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wCGhrSfztUDh"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602756307341	Marionette	INFO	Listening on port 40323
+1602756307375	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+1602756469842	Marionette	INFO	Stopped listening on port 40323
+1602756523893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AnnGeh8ZSrrT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602756527821	Marionette	INFO	Listening on port 33503
+1602756527916	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602756528627	Marionette	INFO	Stopped listening on port 33503
+1602756533570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9ar3TW0khgG3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602756536627	Marionette	INFO	Listening on port 33373
+1602756536682	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602756652022	Marionette	INFO	Stopped listening on port 33373
+1602756657078	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kRnHGXa7Mfll"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602756659183	Marionette	INFO	Listening on port 40569
+1602756659191	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1602756875045	Marionette	INFO	Stopped listening on port 40569
+1602757057912	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.spmgHxBzcWxP"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602757059918	Marionette	INFO	Listening on port 37815
+1602757060018	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602757092960	Marionette	INFO	Stopped listening on port 37815
+1602757097073	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.N2apP3LVHe9X"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602757099255	Marionette	INFO	Listening on port 37415
+1602757099288	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602757187063	Marionette	INFO	Stopped listening on port 37415
+1602757197792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WcSkjJOzcpZW"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602757200046	Marionette	INFO	Listening on port 46099
+1602757200100	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602757711072	Marionette	INFO	Stopped listening on port 46099
+1602759387519	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rynjUJrkM1Gg"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602759389746	Marionette	INFO	Listening on port 34373
+1602759389835	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+1602759413751	Marionette	INFO	Stopped listening on port 34373
+1602759416133	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gFqS6mEruRG0"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602759418188	Marionette	INFO	Listening on port 39761
+1602759418240	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602759445865	Marionette	INFO	Stopped listening on port 39761
+1602759539477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VNMGAYDGuX5e"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602759541846	Marionette	INFO	Listening on port 35203
+1602759541885	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602759553080	Marionette	INFO	Stopped listening on port 35203
+1602759924395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yupOMqMoO6vF"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602759926970	Marionette	INFO	Listening on port 32863
+1602759927009	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602760563158	Marionette	INFO	Stopped listening on port 32863
+1602762871218	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.URWtV0Wlw71O"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602762873543	Marionette	INFO	Listening on port 35769
+1602762873654	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602762905015	Marionette	INFO	Stopped listening on port 35769
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602763892521	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Zta35y6mHKZ7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602763894370	Marionette	INFO	Listening on port 38467
+1602763894602	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602763947378	Marionette	INFO	Stopped listening on port 38467
+1602764522347	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kI329OgNKHW7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602764524641	Marionette	INFO	Listening on port 32811
+1602764524659	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602764543192	Marionette	INFO	Stopped listening on port 32811
+1602764813874	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.da9qqxcv4qms"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602764815740	Marionette	INFO	Listening on port 35743
+1602764815811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602764829529	Marionette	INFO	Stopped listening on port 35743
+1602764846313	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zU02wfdlE2KO"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602764848482	Marionette	INFO	Listening on port 32807
+1602764848520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602764853425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oUCKoO6nTM3c"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602764855628	Marionette	INFO	Listening on port 45933
+1602764855636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+1602764855758	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602764864881	Marionette	INFO	Stopped listening on port 32807
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602764877146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7avE30rW8ybT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602764879479	Marionette	INFO	Listening on port 37097
+1602764879555	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602764898247	Marionette	INFO	Stopped listening on port 37097
+1602764922684	Marionette	INFO	Stopped listening on port 45933
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602764926079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ndG3FliW9VXu"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602764928336	Marionette	INFO	Listening on port 39663
+1602764928387	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1602764963847	Marionette	INFO	Stopped listening on port 39663
+1602764966701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.71hQnfkUtQB4"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602764968790	Marionette	INFO	Listening on port 37193
+1602764968811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1602764984685	Marionette	INFO	Stopped listening on port 37193
+1602765729418	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ig1SvwPjerBw"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602765732540	Marionette	INFO	Listening on port 37955
+1602765732636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602765747056	Marionette	INFO	Stopped listening on port 37955
+1602766786699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hs9ZKZjC4xS9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602766788607	Marionette	INFO	Listening on port 41291
+1602766788705	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602766802484	Marionette	INFO	Stopped listening on port 41291
+1602766846237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JkRNFSw3vhwf"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602766848190	Marionette	INFO	Listening on port 33437
+1602766848244	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602767004646	Marionette	INFO	Stopped listening on port 33437
+1602767006476	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.O6VgEn2REqyi"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602767008205	Marionette	INFO	Listening on port 43899
+1602767008295	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602767025540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yRCZWYyZ0Nqr"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602767027055	Marionette	INFO	Stopped listening on port 43899
+1602767027695	Marionette	INFO	Listening on port 44847
+1602767027750	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602767042304	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YHN4xqzfZ7Ez"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602767044433	Marionette	INFO	Listening on port 45659
+1602767044515	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602767047405	Marionette	INFO	Stopped listening on port 44847
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602767062852	Marionette	INFO	Stopped listening on port 45659
+1602767098551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cJvkk8SY7CXP"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602767100886	Marionette	INFO	Listening on port 34687
+1602767100960	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602767213024	Marionette	INFO	Stopped listening on port 34687
+1602767411273	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YaLPryUURIPB"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602767413422	Marionette	INFO	Listening on port 41477
+1602767413480	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602767451623	Marionette	INFO	Stopped listening on port 41477
+1602767762848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uWXVvrjogOk2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602767764955	Marionette	INFO	Listening on port 44155
+1602767764967	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602767802436	Marionette	INFO	Stopped listening on port 44155
+1602767855417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uD4RWAOSM59n"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602767857690	Marionette	INFO	Listening on port 40099
+1602767857724	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602767896743	Marionette	INFO	Stopped listening on port 40099
+1602768073846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8pisLH2OcXfw"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602768076337	Marionette	INFO	Listening on port 44649
+1602768076362	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602768116688	Marionette	INFO	Stopped listening on port 44649
+1602768330563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dfgel6gm8lGK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602768332461	Marionette	INFO	Listening on port 44549
+1602768332471	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602768348569	Marionette	INFO	Stopped listening on port 44549
+1602768359539	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FJx7htWzNkbJ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602768361658	Marionette	INFO	Listening on port 34309
+1602768361748	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602768377605	Marionette	INFO	Stopped listening on port 34309
+1602768435517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uRJ3oSCfdBIL"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602768437584	Marionette	INFO	Listening on port 43561
+1602768437646	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602768520277	Marionette	INFO	Stopped listening on port 43561
+1602768542372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.m1DpILDreDnG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602768544280	Marionette	INFO	Listening on port 40029
+1602768544390	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602768583627	Marionette	INFO	Stopped listening on port 40029
+1602768604950	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vn8fpE1h8pCx"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602768606938	Marionette	INFO	Listening on port 35627
+1602768606960	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602768641152	Marionette	INFO	Stopped listening on port 35627
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602769042510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pxbQF18LTCpE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602769044503	Marionette	INFO	Listening on port 39959
+1602769044529	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/6h83s9v54ndb2aangmysuqn0s, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1602770011739	Marionette	INFO	Stopped listening on port 39959
+1602829728630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JdDobIOUWXN5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602829730857	Marionette	INFO	Listening on port 39503
+1602829730939	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602829780063	Marionette	INFO	Stopped listening on port 39503
+1602829782471	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QVScvJKhmmoX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602829784809	Marionette	INFO	Listening on port 36007
+1602829784879	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+[Child 46631, MediaDecoderStateMachine #1] WARNING: 7f836c7e31f0 OpenCubeb() failed to init cubeb: file /build/firefox-LfE6pc/firefox-81.0.2+build1/dom/media/AudioStream.cpp, line 330
+[Child 46631, MediaDecoderStateMachine #1] WARNING: Decoder=7f8374b6f400 [OnMediaSinkAudioError]: file /build/firefox-LfE6pc/firefox-81.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602829869059	Marionette	INFO	Stopped listening on port 36007
+1602829900575	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JnUOyZtrctq9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602829903094	Marionette	INFO	Listening on port 46551
+1602829903183	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602829981818	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1602830042061	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1602830269100	Marionette	INFO	Stopped listening on port 46551
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1602830728302	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WdVgVxcvlGHC"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602830730375	Marionette	INFO	Listening on port 41693
+1602830730409	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/7zlrax396pw2el82vc2ey821g, line 17551: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/5a2ev0joyv7vmyk8l4u9tqoa3, line 2870: unreachable code after return statement
+1602830766871	Marionette	INFO	Stopped listening on port 41693
+1603116158668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KDMmyBG27r5j"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603116162214	Marionette	INFO	Listening on port 46211
+1603116162283	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603116165927	Marionette	INFO	Stopped listening on port 46211
+1603187144184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2CSBrrQxEHeU"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603187146316	Marionette	INFO	Listening on port 42357
+1603187146396	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603187151416	Marionette	INFO	Stopped listening on port 42357
