@@ -15,6 +15,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common import action_chains, keys
 from campaign.models import (Campaign,SendindUser)
+import sys
 
 
 HTML_PARSER = 'html.parser'
@@ -24,8 +25,12 @@ PROXY = "159.69.199.175:3128"
 port = "12345"
 chrome_options =webdriver.ChromeOptions()
 #chrome_options.add_argument('--proxy-server=%s' % PROXY)
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-dev-shm-usage')
 
 def local_search(driver,page,campaign_params):
+    print('mtav poisk')
     all_page_user = []
     driver.get(str('%s&page='+str(page)) % (campaign_params['linkedin_url']))
     html = driver.page_source
@@ -74,28 +79,39 @@ def local_search(driver,page,campaign_params):
 
             time.sleep(15)
             driver.find_elements_by_class_name('ml1')[0].click()
-
+            print('------')
             time.sleep(5)
             driver.find_elements_by_class_name('message-anywhere-button')[0].click()
 
             time.sleep(4)
             linkedin_conect.connect = True
         except:
-            pass
+            try:
+                time.sleep(5)
+                driver.find_element_by_link_text("Message").click()
+
+                print('gtav')
+                #driver.find_elements_by_class_name('message-anywhere-button')[0].click()
+            except:
+                e = sys.exc_info()[0]
+                print( sys.exc_info(),666666 )
         try:
 
-            textbox = driver.find_element_by_xpath(".//div[@role='textbox']/p[1]")
+            #textbox = driver.find_element_by_xpath(".//div[@role='textbox']/p[1]")
+            print(JSESSIONID)
             conversation_id = ''
             time.sleep(3)
             try:
                 a = driver.find_element_by_xpath(".//a[@class='message-anywhere-button pv-s-profile-actions pv-s-profile-actions--message ml2 artdeco-button artdeco-button--2 artdeco-button--primary']")
                 conversation_id = a.get_attribute('href').split('Afs_miniProfile%3A')[1].split(')')[0]
             except:
-                a = driver.find_element_by_xpath(".//h4[@class='msg-overlay-bubble-header__title truncate t-14 t-bold t-white pr1']/a[1]")
+                html = driver.page_source
+               # print(html)
+                a = driver.find_element_by_xpath(".//h4[@class='msg-overlay-bubble-header__title']/a[1]")
                 conversation_id = a.get_attribute('href').split('in/')[1].split('/')[0]
                 
             time.sleep(2)
-            
+            print('stexa')        
             script = """fetch("https://www.linkedin.com/voyager/api/messaging/conversations?action=create",{
                 "headers": {
                     "accept": "application/vnd.linkedin.normalized+json+2.1",
@@ -131,14 +147,15 @@ def local_search(driver,page,campaign_params):
             time.sleep(2) 
                     
         except:
-            pass
+            e = sys.exc_info()[0]
+            print( "<p>Error: %s</p>" % e )
         linkedin_conect.save()
     driver.quit()
     return True
 
 def local_statistic(driver,user_id):
     respons= []
-    campaigns = Campaign.objects.filter(user_id=user_id)
+    campaigns = Campaign.objects.filter(linkedin_id=user_id)
     print(campaigns,'campaigns',user_id)
     for target_list in campaigns:
         count_seen= 0
@@ -177,6 +194,8 @@ def local_statistic(driver,user_id):
                     a = driver.find_element_by_xpath(".//a[@class='message-anywhere-button pv-s-profile-actions pv-s-profile-actions--message ml2 artdeco-button artdeco-button--2 artdeco-button--primary']")
                     conversation_id = a.get_attribute('href').split('Afs_miniProfile%3A')[1].split(')')[0]
                 except:
+                    html = driver.page_source
+                    print(html,'*********')
                     a = driver.find_element_by_xpath(".//h4[@class='msg-overlay-bubble-header__title truncate t-14 t-bold t-white pr1']/a[1]")
                     conversation_id = a.get_attribute('href').split('in/')[1].split('/')[0]
         time.sleep(3)
@@ -318,9 +337,7 @@ def check_user(request):
 
                 return JsonResponse({'session_id':driver.session_id,'text':6565,"executor_url":driver.command_executor._url,'url':driver.current_url,"code":True,"status":303},status=303)
         except:
-
-            driver.quit()
-            return JsonResponse({'message':"Something unexpected happened. Please try again.","status":498},status=498) 
+            pass
 
         try:
             WebDriverWait(driver, 1).until(
@@ -345,15 +362,20 @@ def check_user(request):
         print(len(err_username))
         err_code = soup.find_all('input',{'id':'input__email_verification_pin'})
         print(err_code,'code info')
-        if err_code:
-            return JsonResponse({'message':'ok',"status":200})
+        if len(err_code):
+            return JsonResponse({'message':'ok1',"status":200})
         try:
+            if len(err_password) == 0 and len(err_username) == 0:
+                return JsonResponse({'message':'ok',"status":200})
             if len(err_password[0].text) == 0 and len(err_username[0].text )== 0:
-               return JsonResponse({'message':'ok',"status":200})
+                name = driver.find_element_by_xpath('.//div[@class="profile-rail-card__actor-link t-16 t-black t-bold"]')
+                
+                return JsonResponse({'message':name,"status":200})
             else:
-               return JsonResponse({'message':"user not found","status":201},status=201)
+                return JsonResponse({'message':"user not found","status":201},status=201)
         except:
-            return JsonResponse({'message':"let's do a quick security check","status":200},status=200)
+            return JsonResponse({'message':"let's do a quick security check","status":498},status=498)
+
 
     else:
         return JsonResponse({'message':"Method Not Allowed","status":405},status=405)
@@ -436,11 +458,11 @@ def send_message(request):
         print(len(err_username))
         err_code = soup.find_all('input',{'id':'input__email_verification_pin'})
         print(err_code,'code info')
-        if err_code:
-            return JsonResponse({'message':'ok',"status":200})
+        if len(err_code):
+            return JsonResponse({'message':'ok1',"status":200})
         try:
             if len(err_password[0].text) == 0 and len(err_username[0].text )== 0:
-               return JsonResponse({'message':'ok',"status":200})
+               return JsonResponse({'message':'ok2',"status":200})
             else:
                return JsonResponse({'message':"user not found","status":201},status=201)
         except:
