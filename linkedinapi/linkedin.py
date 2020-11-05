@@ -21,16 +21,18 @@ import sys
 HTML_PARSER = 'html.parser'
 options = Options()
 options.headless = True
-PROXY = "159.69.199.175:3128"
+PROXY = "158.69.243.148:9999"
 port = "12345"
 chrome_options =webdriver.ChromeOptions()
-#chrome_options.add_argument('--proxy-server=%s' % PROXY)
+extset = ['enable-automation', 'ignore-certificate-errors']
+# chrome_options.add_argument('--proxy-server=%s' % PROXY)
 chrome_options.add_argument('--headless')
+chrome_options.add_argument("--window-size=1400,600");
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
+
 def local_search(driver,page,campaign_params):
-    print('mtav poisk')
     all_page_user = []
     driver.get(str('%s&page='+str(page)) % (campaign_params['linkedin_url']))
     html = driver.page_source
@@ -70,6 +72,7 @@ def local_search(driver,page,campaign_params):
 
     cam = Campaign.objects.create( campaign_id = campaign_params['campaign_id'],message_text=campaign_params['message'],user_id = campaign_params['user_id'],campaign_name =campaign_params['campaign_name'],linkedin_id = campaign_params['linkedin_id'],count =campaign_params["count"] ,linkedin_url =campaign_params['linkedin_url'] )
     for user in all_page_user:
+        print(user,'-------------------')
         driver.get(user)
         time.sleep(5)
         linkedin_conect_cret = SendindUser.objects.create(linkedin_user_url=user,campaign=cam)
@@ -86,32 +89,28 @@ def local_search(driver,page,campaign_params):
             time.sleep(4)
             linkedin_conect.connect = True
         except:
-            try:
-                time.sleep(5)
-                driver.find_element_by_link_text("Message").click()
+            e = sys.exc_info()
+            print( e ,91)
 
-                print('gtav')
-                #driver.find_elements_by_class_name('message-anywhere-button')[0].click()
-            except:
-                e = sys.exc_info()[0]
-                print( sys.exc_info(),666666 )
         try:
 
-            #textbox = driver.find_element_by_xpath(".//div[@role='textbox']/p[1]")
-            print(JSESSIONID)
+            # textbox = driver.find_element_by_xpath(".//div[@role='textbox']/p[1]")
             conversation_id = ''
             time.sleep(3)
+
+            html = driver.page_source
+            print(html)
+            soup = BeautifulSoup(html, HTML_PARSER)
+
             try:
                 a = driver.find_element_by_xpath(".//a[@class='message-anywhere-button pv-s-profile-actions pv-s-profile-actions--message ml2 artdeco-button artdeco-button--2 artdeco-button--primary']")
                 conversation_id = a.get_attribute('href').split('Afs_miniProfile%3A')[1].split(')')[0]
             except:
-                html = driver.page_source
-               # print(html)
-                a = driver.find_element_by_xpath(".//h4[@class='msg-overlay-bubble-header__title']/a[1]")
+                a = driver.find_element_by_xpath(".//h4[@class='msg-overlay-bubble-header__title truncate t-14 t-bold t-black pr1']/a[1]")
                 conversation_id = a.get_attribute('href').split('in/')[1].split('/')[0]
                 
             time.sleep(2)
-            print('stexa')        
+            
             script = """fetch("https://www.linkedin.com/voyager/api/messaging/conversations?action=create",{
                 "headers": {
                     "accept": "application/vnd.linkedin.normalized+json+2.1",
@@ -142,13 +141,13 @@ def local_search(driver,page,campaign_params):
             linkedin_conect.message = True
             linkedin_conect.mini_profile = conversation_id
         
-            driver.find_element_by_xpath("//button[@class='msg-overlay-bubble-header__control artdeco-button artdeco-button--circle artdeco-button--inverse artdeco-button--1 artdeco-button--tertiary ember-view']").click()
+            driver.find_element_by_xpath("//button[@class='msg-overlay-bubble-header__control artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--1 artdeco-button--tertiary ember-view']").click()
 
             time.sleep(2) 
                     
         except:
-            e = sys.exc_info()[0]
-            print( "<p>Error: %s</p>" % e )
+            e = sys.exc_info()
+            print(e,144 )
         linkedin_conect.save()
     driver.quit()
     return True
@@ -196,7 +195,7 @@ def local_statistic(driver,user_id):
                 except:
                     html = driver.page_source
                     print(html,'*********')
-                    a = driver.find_element_by_xpath(".//h4[@class='msg-overlay-bubble-header__title truncate t-14 t-bold t-white pr1']/a[1]")
+                    a = driver.find_element_by_xpath(".//h4[@class='msg-overlay-bubble-header__title truncate t-14 t-bold t-black pr1']/a[1]")
                     conversation_id = a.get_attribute('href').split('in/')[1].split('/')[0]
         time.sleep(3)
 
